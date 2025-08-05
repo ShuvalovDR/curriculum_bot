@@ -12,6 +12,7 @@
 2. `parse_pdf.py` - парсинг учебного плана (pdf2csv)
 3. `llm_api.py` - RAG + model api generate function
 4. `download_curriculums.py` - скачать учебные планы
+5. `vector_store.py` - векторные хранилища
 
 ### Как запустить:
 1. Создать в директории .env файл, написать туда токены для бота и LLM. В качестве прокси я использую https://aitunnel.ru/ для доступа ко многим моделям. LLM_KEY - токен с сайта.
